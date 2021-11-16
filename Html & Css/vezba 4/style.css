@@ -1,0 +1,34 @@
+.za_naslov{
+    text-align: center;
+    background-color: white;
+    border-radius: 15px;
+}
+div{
+    width: 1350px;
+    height: 1100px;
+    border: black 2px solid;
+    background-image: url(idk.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin-bottom: 100px
+    ;
+
+    
+}
+.button{
+    width: 1000px;
+    margin-left: 170px;
+    height: 30px;
+    border-radius: 10px;
+}
+.stil
+{
+    margin-left: 530px;
+    width: 300px;
+    border-radius: 10px;
+}
+label{
+    color: white;
+    margin-left:630px;
+}

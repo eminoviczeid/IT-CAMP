@@ -1,0 +1,36 @@
+div{
+    border:  black solid 1px;
+    width: 300px;
+    height: 400px;
+    border-radius: 15px;
+    padding: 20px;
+    background-color: darkslategray;
+    }
+img{
+    border-radius: 15px;
+    width: 300px;
+    height: 200px;
+}
+.zowie{
+    color: white;
+    margin-top: 5px;
+}
+.deep{
+    color: white;
+}
+#skinny{
+    margin-left: 20px;
+    font-size: 30px;
+}
+#gliss{
+    margin-left: 80px;
+    font-size: 30px;
+}
+#dove{
+    margin-left: 100px;
+    font-size: 30px;
+}
+i:hover{
+    background-color: forestgreen;
+    color:lime
+}

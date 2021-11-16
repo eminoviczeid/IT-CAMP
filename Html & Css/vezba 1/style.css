@@ -1,0 +1,25 @@
+div{
+  width: 300px;
+  height: 400px;
+  border: black solid 2px;
+    font-size: 15px;
+    border-radius: 15px;
+    background-color:slategrey;
+    color: white;
+    padding: 20px;
+}
+img{
+    border-radius: 15px;
+    width: 300px;
+    height: 200px;
+    margin-top: 40px;
+   
+}
+.nestoo{
+   margin-bottom: 0px;
+   margin-top: 20px;
+}
+.utorak{
+     margin-top: 0px;
+     margin-bottom: 10px;
+}

@@ -1,0 +1,50 @@
+h1{
+    text-align: center;
+    margin-top: 100px;
+    
+
+}
+input{
+    width: 360px;
+    margin: auto;
+    height: 30px;
+    ;
+}
+p{
+    text-align: center;
+}
+form{
+    margin-top: 65px;
+    margin-left: 300px;
+    ;
+    
+    
+    }
+    .zowie{
+    margin: 143px;
+    margin-left: 330px;
+}
+textarea{
+    width: 42%;
+    height: 10%;
+    border-radius: 10px;
+}
+.stil{
+    background-color:darkblue;
+    border: none;
+    width: 90px;
+    height: 40px;
+    border-radius: 4px;
+    color: white;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+div{
+    height: 1000px;
+    width: 43%;
+    margin: auto;
+    margin-right: 300px;
+}
+body{
+    font-family: sans-serif;
+}
