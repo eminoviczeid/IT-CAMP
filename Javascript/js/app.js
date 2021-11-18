@@ -363,7 +363,7 @@
 // }
 // console.log(var1);
 
-
+// -----------------------------------------------------------------------------------------------------------------------------------------------
 
 // ime = prompt("Unesite ime");
 // ime2 = ime.trim()
@@ -381,19 +381,60 @@
 // delete var1.lastname;
 
 // console.log(var1);
-
+// -----------------------------------------------------------------------------------------------------------------------------------------------
 // vrednost = parseInt(prompt("Unesi vrednost"));
 // console.log(vrednost * -1);
 
-string = prompt('Enter a string or number: ');
+// unos = "Zeid";
+// 0123
+// var1 = "";
 
-const len = string.length;
+// for(i = unos.length - 1; i >= 0; i--){
+//     var1 += unos[i];
+// }
 
-for (let i = 0; i < len / 2; i++) {
+// if(var1 === unos){
+//     console.log("Palidrom jeee");
+// }else {
+//     console.log("Nije");
+// }
+// -----------------------------------------------------------------------------------------------------------------------------------------------
 
-    if (string[i] !== string[len - 1 - i]) {
-        alert('Ovo nije palindrom');
-    } else {
-        alert('Ovo je palindrom');
-    }
-}
+// function mojaF(name) {
+//   console.log("Ja sam", name);
+// }
+
+// mojaF("Zeid");
+// mojaF("Hamza");
+// mojaF("Omer");
+
+// -----------------------------------------------------------------------------------------------------------------------------------------------
+
+// broj1 = parseInt(prompt("Unesi broj 1"));
+// broj2 = parseInt(prompt("Unesi broj 2"));
+
+// function sum(a, b) {
+//   console.log("Zbir je: ", a + b);
+// }
+
+// sum(broj1, broj2);
+// -----------------------------------------------------------------------------------------------------------------------------------------------
+// function mojaF() {
+//   console.log("nesto radi");
+//   console.log("jos nesto radi");
+
+//   return 5;
+// }
+
+// a = mojaF();
+
+// console.log(a);
+// -----------------------------------------------------------------------------------------------------------------------------------------------
+
+prompt("Unesite nesto");
+
+function mojaF(string) {
+    return string.charAt(0).toUpperCase() + string.slice(1);
+  }
+  
+console.log(mojaF);
