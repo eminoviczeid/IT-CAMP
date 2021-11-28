@@ -1,31 +1,45 @@
-.page{
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.main_div{
     width: 100%;
     display: flex;
     justify-content: space-evenly;
     margin-top: 100px;
 }
-.card{
+.window{
     width: 30%;
     height: 75%;
     border: 1px gray solid;
 }
-.card img{
+.window img{
     width: 100%;
     height: 48%;
 }
-.card h3{
+.window h3{
     color: gray;
 }
-.card p{
+.window p{
     color: rgb(78, 78, 78);
 }
-.donji_deo{
+.bottom{
     padding: 15px;
 }
-body{
-    margin: 0px;
-    padding: 0px;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media screen and (max-width: 1000px) {
     .page{
         flex-direction: column;

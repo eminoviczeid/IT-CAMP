@@ -5,30 +5,24 @@ body {
   margin-top: 5%;
 }
 
-.textflex {
+.flex {
   display: flex;
   justify-content: center;
 }
 
-.firstpar {
+.nikos {
   font-size: 12px;
   color: gray;
   margin-top: 0;
 }
 
-.monthlyanuflex {
+.monflex {
   display: flex;
   justify-content: center;
   flex-direction: row;
 }
-
-.monthlybackr {
-  background-color: rgb(99, 102, 241);
-  width: 100px;
-  text-align: center;
-  border-radius: 5px;
-  color: white;
-  height: 35px;
+.montop {
+  margin-top: 10px;
 }
 .annually {
   border: 2px solid rgb(99, 102, 241);
@@ -37,44 +31,45 @@ body {
   text-align: center;
   height: 31.5px;
 }
+.annuallyp {
+  margin-top: 8px;
+}
 .monthlyp {
   margin-top: 5px;
 }
 
-.monthanup {
-  margin-top: 10px;
+.back {
+  background-color: rgb(99, 102, 241);
+  width: 100px;
+  text-align: center;
+  border-radius: 5px;
+  color: white;
+  height: 35px;
 }
-.annuallyp {
-  margin-top: 8px;
-}
-
-.optionsdiv {
+.benq {
   display: flex;
   justify-content: space-evenly;
   margin: 60px;
 }
-
-.option {
+.zowie {
   border: 2px solid rgb(218, 216, 216);
   border-radius: 10px;
   height: 23vw;
   width: 20vw;
   margin-top: 20px;
 }
-
-.popularoption {
+.h4zowie {
+  color: gray;
+}
+.h1zowie {
+  font-size: 30px;
+}
+.pop {
   border: 2px solid rgb(99, 102, 241);
 }
 
-.startlinediv {
+.firstline {
   margin-left: 15px;
-}
-
-.h4option {
-  color: gray;
-}
-.h1option {
-  font-size: 30px;
 }
 
 hr {
@@ -97,7 +92,7 @@ button {
 button:hover {
   background-color: rgb(130, 129, 129);
 }
-.smallp {
+.smal {
   font-size: 9px;
   color: gray;
 }
@@ -115,7 +110,7 @@ button:hover {
   background-color: rgb(67, 70, 243);
 }
 
-.popular{
+.pp{
   position: absolute;
   margin: 0%;
   margin-top: -19px;

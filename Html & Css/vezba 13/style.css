@@ -1,4 +1,4 @@
-.mapdiv{
+.container{
     margin-top: 80px;
     margin-left: 80px;
     display: flex;
@@ -13,7 +13,7 @@ iframe{
     color: gray;
 }
 
-.inmapdiv{
+.main_div{
     height: 125px;
     width: 600px;
     background-color: white;
@@ -33,11 +33,11 @@ p{
 }
 
 
-.pbold{
+.bold{
     font-weight: bold;
 }
 
-.rightdiv{
+.zowie{
     float: right;
     margin-right: 60px;
     margin-top: -550px;
@@ -49,7 +49,7 @@ h2{
     font-size: 20px;
 }
 
-.onlyp{
+.ptext{
     margin: 0px;
     font-size: 11px;
 }
@@ -82,19 +82,19 @@ button{
     color: white;
 }
 
-.sizep{
+.size{
     font-family: monospace;
     font-size: 9px;
     margin-top: 10px;
 
 }
 
-.divflex{
+.flex{
     display: flex;
 }
 
 
-.stylep{
+.stylp{
     color: rgb(99,102,241);
 }
 

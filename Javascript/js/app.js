@@ -430,11 +430,178 @@
 
 // console.log(a);
 // -----------------------------------------------------------------------------------------------------------------------------------------------
+//foreach
 
-prompt("Unesite nesto");
+// numbers = [45, 4, 9, 16, 25];
 
-function mojaF(string) {
-    return string.charAt(0).toUpperCase() + string.slice(1);
-  }
-  
-console.log(mojaF);
+// numbers.forEach(function (el) {
+//   console.log(el);
+// });
+
+// -------------------------------------------------------------------------------------------------------------------------------------------------
+//filter
+
+// numbers = [45, 4, 9, 16, 25];
+
+// fNiz = numbers.filter(function (el) {
+//   return el % 2 === 0;
+// });
+
+// console.log(fNiz);
+
+// ----------------------------------------------------------------------------------------------------------------------------------------------
+//every
+
+// numbers = [45, 4, 9, 16, 25];
+
+// isAllHigh = numbers.every(function (el) {
+//   return el > 1;
+// });
+
+// console.log(isAllHigh);
+
+// -------------------------------------------------------------------------------------------------------------------------------------------------
+//some
+
+// numbers = [45, 4, 9, 16, 25];
+
+// isSomeoneHigh = numbers.some(function (el) {
+//   return el > 108;
+// });
+
+// console.log(isSomeoneHigh);
+
+// ----------------------------------------------------------------------------------------------------------------------------------------------
+//indexOf
+
+// fruits = ["Apple", "Orange", "Apple", "Mango"];
+
+// i = fruits.indexOf("Orange");
+
+// console.log(i);
+
+// -----------------------------------------------------------------------------------------------------------------------------------------------
+//includes
+
+// fruits = ["Banana", "Orange", "Apple", "Mango"];
+
+// a = fruits.includes("Orange");
+
+// console.log(a);
+
+// ------------------------------------------------------------------------------------------------------------------------------------------------
+//find
+
+// numbers = [4, 9, 16, 25, 29];
+
+// a = numbers.find((el) => {
+//   return el > 18;
+// });
+
+// console.log(a);
+
+// ---------------------------------------------------------------------------------------------------------------------------------------------
+//vrste funkcija
+
+// function var1() {}
+
+// var2 = function () {};
+
+// var3 = () => {
+//   console.log("Arrow function");
+// };
+
+// ----------------------------------------------------------------------------------------------------------------------------------------------
+
+// ljudi = [
+//   {
+//     name: "Angelina Jolie",
+//     age: 80,
+//   },
+//   {
+//     name: "Eric Jones",
+//     age: 2,
+//   },
+//   {
+//     name: "Paris Hilton",
+//     age: 5,
+//   },
+//   {
+//     name: "Kayne West",
+//     age: 16,
+//   },
+//   {
+//     name: "Bob Ziroll",
+//     age: 100,
+//   },
+// ];
+
+// function provera(ljudi) {
+//   dozvola = ljudi.map((el) => {
+//     if (el.age > 18) {
+//       return `${el.name} moze`;
+//     } else {
+//       return `${el.name} ne`;
+//     }
+//   });
+//   console.log(dozvola);
+// }
+
+// provera(ljudi);
+
+// -----------------------------------------------------------------------------------------------------------------------------------------------
+
+// ljudi = [
+//   {
+//     name: "Angelina Jolie",
+//     age: 80,
+//   },
+//   {
+//     name: "Eric Jones",
+//     age: 2,
+//   },
+//   {
+//     name: "Paris Hilton",
+//     age: 5,
+//   },
+//   {
+//     name: "Kayne West",
+//     age: 16,
+//   },
+//   {
+//     name: "Bob Ziroll",
+//     age: 100,
+//   },
+// ];
+
+// imenaLjudi = ljudi.map((el) => {
+//   return el.name;
+// });
+
+// console.log(imenaLjudi);
+
+// -----------------------------------------------------------------------------------------------------------------------------------------------
+
+// ljudi = []
+// function peopleWhoBelongToTheIlluminati(ljudi){
+//     memberr = ljudi.map((el) => {
+//         if (el.member !== true) {
+//             return `${el.name} is not member`;
+//         } 
+           
+//     })
+
+//   console.log(memberr);
+// }
+ 
+//   console.log(peopleWhoBelongToTheIlluminati([
+//       { name: "Angelina Jolie", member: true },
+//       { name: "Eric Jones", member: false },
+//       { name: "Paris Hilton", member: true },
+//       { name: "Kayne West", member: false },
+//       { name: "Bob Ziroll", member: true }
+//   ]));
+// -----------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
